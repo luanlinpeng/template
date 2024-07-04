@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "resolvePackageJsonImports": false,
+    "resolvePackageJsonExports": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    /* Linting */
+    "strict": true,
+    "types": [
+      "vite-plugin-svgr/client"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "vite/client",
+    "src",
+    "src/store/map/travelLayer/createAnimPathLayer.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

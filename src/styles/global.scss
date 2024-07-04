@@ -1,0 +1,29 @@
+$primary: #FC4C02;
+$bg-deepLitte:  #2D3E48;
+$component-bg: #142428BF;
+
+.semi-spin-wrapper > svg {
+  display: inline-block;
+}
+svg.colorSvg {
+  path {
+    fill: currentColor !important;
+  }
+  transition: all 100ms ease-in-out;
+}
+.semi-dropdown-wrapper{
+  background-color: $bg-deepLitte;
+}
+.semi-dropdown-item{
+  padding: 6px 20px 6px 0;
+}
+.semi-popover-content {
+  color: white;
+}
+.semi-tooltip-wrapper {
+  background-color: $component-bg;
+  color: white;
+}
+.semi-tooltip-wrapper .semi-tooltip-icon-arrow {
+  color: $component-bg;
+}
